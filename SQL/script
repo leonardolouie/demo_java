@@ -1,0 +1,7 @@
+CREATE TABLE crud_application.user(id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, firstname VARCHAR(45), lastname VARCHAR(45), age VARCHAR(45), address VARCHAR(45), username VARCHAR(45));
+
+SELECT * from user;
+
+INSERT INTO user(firstname, lastname, age, address,username) VALUES('leonardo', 'ordonez', '19', '058 Lambak Lalalkhan SMB', 'pogimo');
+UPDATE  user set firstname = 'pogi' where id='1';
+DELETE FROM user where id='1';
